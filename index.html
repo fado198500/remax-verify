@@ -2,41 +2,68 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>REMAX Verify</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>REMAX Verification</title>
 
 <style>
 body{
+margin:0;
 background:#000;
-color:#fff;
 font-family:Arial,sans-serif;
-text-align:center;
-padding-top:50px;
+color:#fff;
+display:flex;
+justify-content:center;
+align-items:center;
+height:100vh;
 }
 
 .card{
 width:90%;
-max-width:500px;
-margin:auto;
-border:2px solid #00ff66;
-border-radius:15px;
-padding:25px;
+max-width:450px;
 background:#111;
+border:2px solid #00ff66;
+border-radius:20px;
+padding:30px;
+text-align:center;
+box-shadow:0 0 20px rgba(0,255,102,.3);
 }
 
-h1{
-margin-bottom:20px;
+.logo{
+font-size:38px;
+font-weight:bold;
+margin-bottom:15px;
 }
 
 .ok{
+font-size:30px;
 color:#00ff66;
-font-size:28px;
 font-weight:bold;
+margin-bottom:15px;
+}
+
+.msg{
 margin-bottom:20px;
+color:#ddd;
 }
 
 .spec{
-font-size:20px;
-margin:12px 0;
+margin:10px 0;
+font-size:18px;
+}
+
+.serial{
+background:#000;
+border:1px solid #00ff66;
+padding:12px;
+border-radius:10px;
+margin-top:20px;
+font-weight:bold;
+}
+
+.footer{
+margin-top:15px;
+font-size:12px;
+color:#888;
 }
 </style>
 </head>
@@ -45,19 +72,25 @@ margin:12px 0;
 
 <div class="card">
 
-<h1>REMAX</h1>
+<div class="logo">REMAX</div>
 
-<div class="ok">
-✅ Genuine Product
+<div class="ok">✅ VERIFIED</div>
+
+<div class="msg">
+Product verification completed successfully
 </div>
 
-<p>Product verification completed successfully.</p>
-
 <div class="spec">🔋 Capacity: 60000mAh</div>
-
 <div class="spec">⚡ Power Output: 100W PD</div>
 
-<div class="spec">🏷️ Serial Number: REMAX100W260001</div>
+<div class="serial">
+Serial Number<br>
+REMAX100W260001
+</div>
+
+<div class="footer">
+Official Product Authentication
+</div>
 
 </div>
 
